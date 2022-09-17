@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1" />
+  <meta name="author" content="Rodrigo Lima" />
+  <meta name="theme-color" content="#000" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <link
+  rel="preload"
+  href="assets/css/main.css"
+  as="style"
+  onload="this.rel='stylesheet'"
+  />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </noscript>
+  <title>Sistema Gaviões</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-bg"></div>
+    <img class="logotipo" src="assets/img/logo.png">
+  </header>
+  <section>
+    <div class="container">
+      <form>
+        <label for="socio">Número do associado</label><br>
+        <div class="inputForm">
+          <input type="text" name="socio" id="socio">
+          <button id="pesquisar" onclick="pesquisar()" >Pesquisar</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container-large">
+      <div class="results">
+        <div class="situation">
+          <p class="label">Nome completo</p>
+          <span class="name">Marcelo de Lima</span>
+          <p class="label">Associado número</p>
+          <span class="number">117.384</span>
+          <p class="label">Adimplente até</p>
+          <span class="due">29/04/2022</span>
+          <p class="label">Situação</p>
+          <span class="status">Em atraso</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

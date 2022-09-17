@@ -1,0 +1,112 @@
+html,
+body, 
+p {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: #FFF;
+  color: #383838;
+  text-align: left;
+  overflow-x: hidden;
+}
+
+input,
+button {
+	all: unset;
+}
+
+.header-bg {
+	position: absolute;
+	background: #000;
+	clip-path: polygon(0% 0%, 0% 20%, 50% 50%, 100% 20%, 100% 0%);
+	width: 100%;
+	height: 280px;
+	z-index: 1;
+}
+
+.logotipo {
+	position: relative;
+	display: block;
+	max-height: 180px;
+	margin: 0px auto;
+	padding-top: 20px;
+	z-index: 10;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding:  50px 0;
+}
+
+.container-large {
+	max-width: 800px;
+	margin: 0 auto;
+	border: 1px solid #c2c2c2;
+	border-radius: 8px;
+}
+
+.inputForm {
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+}
+
+input#socio {
+	display: inline-block;
+	width: 420px;
+	border: 2px solid #c2c2c2;
+	border-radius: 8px;
+	padding: 8px 16px;
+	font-size: 20px;
+}
+
+#pesquisar {
+	color: #fff;
+	background-color: #060606;
+	padding: 12px 32px;
+	border: none;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.results {
+	padding: 16px 20px;
+}
+
+.label {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 300;
+	padding-top: 12px;
+}
+
+.situation span {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.status {
+	padding: 4px 12px;
+	border-radius: 4px;
+	background-color: rgba(19, 106, 208, 0.2);
+}
+
+.atraso {
+	background-color: rgba(176, 1, 1, 0.2);
+}
+
+
+/*<input type="submit" value="Pesquisar" id="pesquisar" onclick="checkBG()">
